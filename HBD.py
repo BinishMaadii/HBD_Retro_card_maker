@@ -27,7 +27,7 @@ def create_retro_birthday_card():
     draw.rectangle(inner_rect, fill=green_bg)
 
     # 2. Text Configuration
-    lines = ["Happy Birthday", "FIZA BARI", "2026"]
+    lines = ["Happy Birthday", "FRIENDS NAME", "2026"]
 
     # Load Font
     font_size = 65
@@ -113,7 +113,7 @@ def create_retro_birthday_card():
         current_y += (bbox[3] - bbox[1] + 2 * tile_padding) + line_spacing
 
     # 4. Save and view result
-    output_filename = "Retro_Fiza_Bari_Birthday.png"
+    output_filename = "Retro_Friend_name_Birthday.png"
     image.save(output_filename)
     print(f"Custom retro card saved as '{output_filename}'!")
 
